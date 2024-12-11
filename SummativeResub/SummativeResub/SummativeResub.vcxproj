@@ -127,7 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="battleship.cc" />
+    <ClCompile Include="game.cc" />
     <ClCompile Include="SummativeResub.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="battleship.h" />
+    <ClInclude Include="game.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
